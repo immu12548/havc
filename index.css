@@ -1,0 +1,484 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#navbar {
+    padding: 25px 40px 0px 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 100px;
+    width: 100%;
+    /* position: fixed;
+    top: 0px;
+    left: 0px; */
+    position: sticky;
+    top: -1px;
+    left: 0px;
+    background-color: #fff;
+    z-index: 2;
+}
+
+#navbar div {
+    float: left;
+}
+
+#social-media-icons {
+    width: 20%;
+    margin-top: 20px;
+}
+
+#social-media-icons i {
+    margin: 0px 5px;
+    color: rgb(97, 107, 120);
+}
+
+#logo-nav-links a {
+    color: rgb(97, 107, 120);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 18px;
+}
+
+#logo-nav-links ul {
+    list-style-type: none;
+}
+
+ul li {
+    float: left;
+    margin-top: 22px;
+}
+
+#logo {
+    margin-top: 0px !important;
+}
+
+#logo-img {
+    position: relative;
+    top: 12px;
+}
+
+#logo a {
+    background-color: rgb(20, 35, 53);
+    color: #fff;
+    padding: 32px 22px !important;
+}
+
+#contact-information {
+    width: 15%;
+    margin-top: 10px;
+}
+
+#contact-information p {
+    color: rgb(69, 133, 213);
+    border: 1px solid rgb(249, 209, 13);
+    padding: 10px;
+    text-align: center;
+}
+header {
+    background-image: url('https://preview.colorlib.com/theme/hvacompany/img/hero/hero-1.jpg.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    padding: 13rem 10rem;
+    position: relative;
+}
+header > #keeping-your-home {
+    width: 37rem;
+    background-color: #fff;
+    padding: 38px 38px 60px 38px;
+}
+header h2 {
+    font-size: 50px;
+    color: rgb(19,35,54);
+    line-height: 4rem;
+}
+header p {
+    font-size: 18px;
+    padding: 14px 0px 40px 0px;
+}
+header a {
+    background-color: rgb(250, 209, 16);
+    padding: 18px;
+    font-size: 16px;
+    font-weight: 600;
+}
+#benifits {
+    display: flex;
+    gap: 25px;
+    position: absolute;
+    bottom: -5rem;
+    left: 22rem;
+}
+.benifit {
+    background-color: #fff;
+    padding: 30px;
+    border: 1px solid rgb(225,225,225);
+}
+#our-services {
+    padding: 8rem 10rem;
+}
+#our-services-header {
+    display: flex;
+    justify-content: space-between;
+}
+#our-services-header h4 {
+    color: rgb(69,134,213);
+}
+#our-services-header h1 {
+    font-size: 2.2rem;
+    padding: 15px 0px;
+}
+#our-services-header a {
+    border: 2px solid rgb(250, 209, 16);
+    padding: 15px 20px;
+    color: rgb(69, 134, 213);
+    margin-left: -141px;
+}
+#services {
+    margin-top: 15px;
+    display: flex;
+    margin-left: -332px;
+}
+#services > div {
+    margin: 0px 20px;
+    text-align: center;
+    box-shadow: 0px 5px 15px rgba(74, 103, 141, 0.16);
+}
+.services-icon {
+    display: inline-block;
+    background: #FAD110;
+    padding: 18px;
+    margin-top: -56px;
+}
+.services-content {
+    padding: 15px 30px 30px 30px;
+}
+.services-content h3 {
+    margin: 8px;
+}
+.services-content p {
+    margin-bottom: 15px;
+}
+.services-content a {
+    text-decoration: underline;
+}
+#ci {
+    padding: 75px 40px 78px 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 100px;
+    width: 100%;
+    
+    
+    top: -1px;
+    left: 0px;
+    background-color:rgb(20,35,54);
+    
+}
+#rating{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+    padding: 20px;
+    margin-top: -103px;
+    bottom: -5rem;
+    left: 22rem;
+    
+    
+
+}
+.rate{
+    text-align: center;
+    padding: 20px;
+    
+   
+    color: #fff;
+    
+
+}
+
+.rate h1{
+    color: rgb(69,134,203);
+    margin: 8px;
+    font-size: 18px;
+}
+.rate h2{
+    margin: 8px;
+    
+}
+#ap{
+    display: flex;
+    
+    margin-top: 79px;
+    
+
+}
+.ap1{
+    position: absolute;
+    background-color: #fff;
+    margin-top: 231px;
+    margin-right: 24px;
+    margin-left: 241px;
+    border: #fff;
+    margin-bottom: 20px;
+
+
+
+}
+.ap2 h1{
+    color: rgb(69,134,214);
+    font-size: 15px;
+    margin-left: 37px;
+
+
+
+}
+.ap2 h2 {margin-left: 23px;padding: 20px;}
+
+.ap2 p {
+    margin-left: 23px;
+    padding: 20px;
+    text-align: justify;
+}
+#check{
+    margin-left: 39px ;
+
+}
+
+#aa{
+    border: 2px solid rgb(250, 209, 16);
+    padding: 15px 20px;
+    color: rgb(69, 134, 213);
+    margin-left: 0px;
+    margin-top: 2px;
+
+}
+#quotes{
+    margin-left: -2px;
+    width: 33rem;
+    background-color: rgb(69, 134, 213);
+    padding: 47px 2px 2px 9px;
+    margin-top: 134px;
+    height: 27rem;
+
+}
+.image1{
+    padding: 180px -29px 51px 121px;
+    margin-left: 483px;
+    margin-top: -346px;
+    width: 60rem;
+    height: 30rem;
+    width: fit-content;
+
+}
+.web {
+    margin-left: 39px;
+    padding: 20px;
+}
+.web button{
+    background-color: #FAD110;
+    border: 0px;
+    padding: 9px;
+
+}
+#form1{
+    border: 2px;
+    border-bottom: black;
+    background-color: rgb(69, 134, 213);
+    margin: 26px 0;
+    padding: 10px 15px
+}
+.image2{
+    margin-top: -232px;
+    margin-left: 841px;
+    width: 4rem;
+    height: 4rem;
+    margin-bottom: 232px;
+    align-items: center;
+
+}
+#business-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 50px auto;
+    width: 101%;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 300px; /* Adjust width as needed */
+}
+
+.card-content {
+    color: #333;
+}
+
+#business-cards h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+#business-cards p {
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+#contatiner h1{
+    text-align: center;
+    padding: 35px;
+    color: rgb(69, 134, 213);
+}
+#contatiner h2{
+    text-align: center;
+}
+#image3{
+    width: 1216px;
+    height: 365px;
+
+
+}
+#text1{
+    text-align: center;
+    margin-top: -294px;
+    padding: 43px
+}
+#aaa{
+    background-color: rgb(250, 209, 16);
+    padding: 15px 20px;
+    color: rgb(69, 134, 213);
+    margin-left: 498px;
+    margin-top: 2px;
+}
+
+#products {
+    padding: 11rem 14rem;
+}
+#products-header {
+    display: flex;
+    justify-content: space-between;
+}
+#products-header h4 {
+    color: rgb(69,134,213);
+}
+#products-header h1 {
+    font-size: 2.2rem;
+    padding: 15px 0px;
+}
+#products-header a {
+    border: 2px solid rgb(250, 209, 16);
+    padding: 15px 20px;
+    color: rgb(69, 134, 213);
+    margin-left: -141px;
+}
+#product {
+    margin-top: 15px;
+    display: flex;
+    margin-left: -272px;
+}
+#product > div {
+    margin: 1px -19px;
+    text-align: center;
+}
+.product-icon {
+    display: inline-block;
+    background: #FAD110;
+    padding: 18px;
+    margin-top: -56px;
+}
+.product-content {
+    padding: 15px 30px 30px 30px;
+}
+.product-content h3 {
+    margin: 8px;
+}
+.product-content p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.product-content img{
+    border: 1px solid #333;
+}
+#supports{
+    background-color: rgb(69, 134, 213);
+    width: 1095px;
+    height: 145px;
+    margin-right: 33px;
+    margin-left: 47px
+}
+section {
+    background-color: #f1f1f1;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  nav {
+    background-color: #e0e0e0;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin: 0 20px;
+  }
+  
+  nav li a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  nav li ul {
+    position: absolute;
+    background-color: #e0e0e0;
+    display: none;
+  }
+  
+  nav li:hover ul {
+    display: block;
+  }
+  
+  main {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .contact-info {
+    text-align: left;
+    margin: 20px auto;
+  }
+  
+  .contact-info h3 {
+    margin-bottom: 5px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+  }
+  
+  .social-media {
+    margin-top: 10px;
+  }
+  
+  .social-media a {
+    text-decoration: none;
+    margin: 0 10px;
+  }

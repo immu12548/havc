@@ -1,0 +1,248 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#navbar {
+    padding: 25px 40px 0px 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 100px;
+    width: 100%;
+    /* position: fixed;
+    top: 0px;
+    left: 0px; */
+    position: sticky;
+    top: -1px;
+    left: 0px;
+    background-color: #fff;
+    z-index: 2;
+}
+
+#navbar div {
+    float: left;
+}
+
+#social-media-icons {
+    width: 20%;
+    margin-top: 20px;
+}
+
+#social-media-icons i {
+    margin: 0px 5px;
+    color: rgb(97, 107, 120);
+}
+
+#logo-nav-links a {
+    color: rgb(97, 107, 120);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 18px;
+}
+
+#logo-nav-links ul {
+    list-style-type: none;
+}
+
+ul li {
+    float: left;
+    margin-top: 22px;
+}
+
+#logo {
+    margin-top: 0px !important;
+}
+
+#logo-img {
+    position: relative;
+    top: 12px;
+}
+
+#logo a {
+    background-color: rgb(20, 35, 53);
+    color: #fff;
+    padding: 32px 22px !important;
+}
+
+#contact-information {
+    width: 15%;
+    margin-top: 10px;
+}
+
+#contact-information p {
+    color: rgb(69, 133, 213);
+    border: 1px solid rgb(249, 209, 13);
+    padding: 10px;
+    text-align: center;
+}
+header {
+    background-image: url('./breadcrumb-1.jpg.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    padding: 6rem 10rem;
+    position: relative;
+}
+header h2{
+    color: #fff;
+    text-align: center;
+    
+}
+header p{
+    color: #fff;
+    text-align: center;
+    margin-left: 10px;
+}
+#ap{
+    display: flex;
+    margin-bottom: 138px;
+    margin-top: 79px;
+    
+
+}
+.ap1{
+    position: absolute;
+    background-color: #fff;
+    margin-top: 231px;
+    margin-right: 24px;
+    margin-left: 241px;
+    border: #fff;
+    margin-bottom: 20px;
+
+
+
+}
+.ap2 h1{
+    color: rgb(69,134,214);
+    font-size: 15px;
+    margin-left: 37px;
+
+
+
+}
+.ap2 h2 {margin-left: 23px;padding: 20px;}
+
+.ap2 p {
+    margin-left: 23px;
+    padding: 20px;
+    text-align: justify;
+}
+
+#check{
+    margin-left: 39px ;
+
+}
+#check a{
+    border: 2px solid rgb(250, 209, 16);
+    padding: 15px 20px;
+    color: rgb(69, 134, 213);
+    margin-left: 0px;
+    margin-top: 2px;
+}
+#ci {
+    padding: 491px 40px 78px 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 100px;
+    width: 100%;
+    /* position: fixed;
+    top: 0px;
+    left: 0px; */
+    
+    top: -1px;
+    left: 0px;
+    background-color:rgb(20,35,54);
+    z-index: 2;
+}
+#rating{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+    padding: -12px;
+    margin-top: -468px;
+    bottom: -5rem;
+    left: 22rem;
+    
+    
+
+}
+.rate{
+    text-align: center;
+    padding: 20px;
+    
+   
+    color: #fff;
+    
+
+}
+
+.rate h1{
+    color: rgb(69,134,203);
+    margin: 8px;
+    font-size: 18px;
+}
+.rate h2{
+    margin: 8px;
+    
+}
+#image{
+    margin-bottom: 85px;
+    margin-left: 84px;
+    margin-top: -250px;
+    margin-right: 258px;
+    height: 500px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: cente;
+    width: 1026px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#business-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 50px auto;
+    width: 70%;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 300px; /* Adjust width as needed */
+}
+
+.card-content {
+    color: #333;
+}
+
+#business-cards h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+#business-cards p {
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+#contatiner h1{
+    text-align: center;
+}
+#contatiner h2{
+    text-align: center;
+}

@@ -1,0 +1,18 @@
+header {
+    background-image: url('cal.avif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    padding: 13rem 10rem;
+    position: relative;
+    width: 883px;
+    height: 166px;
+}
+header > #calculator {
+    width: 20rem;
+    background-color: #fff;
+    padding: 53px 18px 33px 9px;
+    margin-left: 490px;
+    margin-right: 109px;
+}

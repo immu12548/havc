@@ -1,0 +1,382 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar {
+    padding: 25px 40px 0px 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 100px;
+    width: 100%;
+    position: sticky;
+    top: -1px;
+    left: 0px;
+    background-color: #fff;
+    z-index: 2;
+}
+
+#navbar div {
+    float: left;
+}
+
+#social-media-icons {
+    width: 20%;
+    margin-top: 20px;
+}
+
+#social-media-icons i {
+    margin: 0px 5px;
+    color: rgb(97, 107, 120);
+}
+
+#logo-nav-links a {
+    color: rgb(97, 107, 120);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 18px;
+}
+
+#logo-nav-links ul {
+    list-style-type: none;
+}
+
+ul li {
+    float: left;
+    margin-top: 22px;
+}
+
+#logo {
+    margin-top: 0px !important;
+}
+
+#logo-img {
+    position: relative;
+    top: 12px;
+}
+
+#logo a {
+    background-color: rgb(20, 35, 53);
+    color: #fff;
+    padding: 32px 22px !important;
+}
+
+#contact-information {
+    width: 15%;
+    margin-top: 10px;
+}
+
+#contact-information p {
+    color: rgb(69, 133, 213);
+    border: 1px solid rgb(249, 209, 13);
+    padding: 10px;
+    text-align: center;
+}
+
+header {
+    background-image: url('./breadcrumb-4.jpg.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    padding: 6rem 10rem;
+    position: relative;
+}
+
+header h2 {
+    color: #fff;
+    text-align: center;
+
+}
+
+header p {
+    color: #fff;
+    text-align: center;
+    margin-left: 10px;
+}
+#our-services {
+    padding: 11rem 20rem;
+    margin-top: -119px;
+
+}
+#our-services-header {
+    display: flex;
+    justify-content: space-between;
+}
+#our-services-header h4 {
+    color: rgb(69,134,213);
+}
+#our-services-header h1 {
+    font-size: 2.2rem;
+    padding: 15px 0px;
+}
+#our-services-header a {
+    border: 2px solid rgb(250, 209, 16);
+    padding: 15px 20px;
+    color: rgb(69, 134, 213);
+    margin-left: -141px;
+}
+#services {
+    margin-top: 15px;
+    display: flex; 
+    margin-left: -332px;
+}
+#services > div {
+    margin: 0px 20px;
+    text-align: center;
+    box-shadow: 0px 5px 15px rgba(74, 103, 141, 0.16);
+    width: 379px;
+    height: 233px;
+}
+.services-icon {
+    display: inline-block;
+    background: #FAD110;
+    padding: 8px;
+    margin-top: -83px;
+    font-size: 5px;
+    margin-left: -152px;
+    margin-right: 5px;
+
+}
+.services-content {
+    padding: 15px 30px 30px 30px;
+    font-size: 9px;
+
+}
+.services-content h3 {
+    margin: 8px;
+}
+.services-content p {
+    margin-bottom: 15px;
+}
+.services-content a {
+    text-decoration: underline;
+}
+#services img {
+    width: 225px;
+    height: 145px;
+    margin-left: -92px;
+}
+#our-services2 {
+    padding: 11rem 20rem;
+    margin-top: -332px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 287px;
+    margin-left: -328px;
+    margin-top: -535px;
+}
+
+
+.product {
+    width: 200px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+    display: inline-block;
+    /* or display: flex; */
+    vertical-align: top;
+    /* Add this to align items properly */
+}
+
+.product img {
+    max-width: 100%;
+}
+
+.product h3 {
+    margin: 10px 0;
+    font-size: 12px;
+}
+
+.product p {
+    color: #888;
+}
+
+.product button {
+    background-color: white;
+    color: #007bff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.product button:hover {
+    background-color: #0056b3;
+}
+
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin-right: -44px;
+    margin-left: 922px;
+    margin-top: -1348px;
+}
+
+.search-bar input {
+    padding: 8px 30px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    border-radius: 3px;
+    text-align: left;
+
+}
+
+.search-bar button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.search-bar .fas.fa-search {
+    font-size: 18px;
+    color: #333;
+}
+
+.heading-line {
+    display: flex;
+    /* Make the container a flexbox */
+    align-items: center;
+    font-size: 12px;
+    margin-top: -1166px;
+    margin-left: 923px;
+    
+
+
+}
+
+/* Align heading and line vertically */
+
+
+h1 {
+    margin-right: 1rem;
+    /* Add space between heading and line */
+}
+
+hr {
+    border: 0;
+    /* Remove default border styling */
+    border-top: 1px solid black;
+    /* Set the desired line style */
+    width: 50%;
+    /* Extend the line to full width */
+}
+
+.appliance-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 32%;
+    margin-left: 905px;
+    height: 26px;
+    font-size: 16px;
+    flex-direction: inherit;
+    margin-top: -832px;
+}
+
+.appliance-item {
+    /* Add a border */
+    padding: 1rem;
+    /* Add some padding */
+    margin: 0.5rem;
+    /* Add some margin for separation */
+    text-align: left;
+    /* Center the appliance description and price */
+}
+
+.appliance-item p {
+    margin: 0.5rem 0;
+    font-size: 11px;
+    /* Add some space between descriptions and prices */
+}
+.appliance-item img{
+    align-items: left;
+    margin-left: -74px;
+}
+#p{
+    margin-top: -79px;
+    margin-left: 62px;
+}
+.social1 {
+    background-color: #e7f6fd;
+    color: #3897f0;
+    padding: 10px 45px;
+    border: 1px solid #3897f0;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+  }
+  .social2 {
+    background-color: #e7f6fd;
+    color: #3897f0;
+    padding: 10px 55px;
+    border: 1px solid #3897f0;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+  }
+  .social3 {
+    background-color: #e7f6fd;
+    color: #3897f0;
+    padding: 10px 20px;
+    border: 1px solid #3897f0;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+  }
+  .social4 {
+    background-color: #e7f6fd;
+    color: #3897f0;
+    padding: 10px 20px;
+    border: 1px solid #3897f0;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .social:hover {
+    background-color: #d0e3f0;
+  }
+  #media{
+    margin-left: 851px;
+    margin-top: 618px
+  }
+.social1 img{
+    width: 22px;
+    height: 20px;
+    padding-left: 1px;
+}
+.social2 img{
+    width: 22px;
+    height: 20px;
+    padding-left: 1px;
+}
+.social3 img{
+    width: 22px;
+    height: 20px;
+    padding-left: 1px;
+}
+.social4 img{
+    width: 22px;
+    height: 20px;
+    padding-left: 1px;
+}
+  
